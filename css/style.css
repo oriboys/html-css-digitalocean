@@ -146,7 +146,7 @@ header .container .row [class*="col-"]:nth-child(3) {
 
 
 #deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child {
-  height: 400px;
+  /* height: 400px; */
   background-color: green;
 }
 
@@ -168,4 +168,43 @@ header .container .row [class*="col-"]:nth-child(3) {
 #deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(4){
   height: 200px;
   background-color: pink;
+}
+
+
+/* designed */
+
+#designed{
+    background-color: rgb(200, 204, 200);
+}
+
+#designed .container .row [class*="col-"]:first-child {
+  height: 300px;
+  background-color: green;
+}
+
+#designed .container .row [class*="col-"]:nth-child(2){
+  height: 500px;
+  background-color: blue;
+}
+
+#designed .container .row [class*="col-"]:nth-child(3){
+  height: 500px;
+  background-color: red;
+}
+
+#designed .container .row [class*="col-"]:last-child{
+  height: 500px;
+  background-color: yellow;
+}
+
+/* media query */
+
+@media screen and (max-width: 766px) {
+  #designed .container .row [class*="col-"]:nth-child(2){
+    display: none;
+  }
+
+  #designed .container .row [class*="col-"]:last-child{
+    display: none;
+  }
 }
