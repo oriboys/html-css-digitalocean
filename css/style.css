@@ -128,3 +128,44 @@ header .container .row [class*="col-"]:nth-child(3) {
   height: 100px;
   background-color: green;
 }
+
+
+/* deploy */
+
+/* prima riga */
+#deploy .container .row [class*="col-"]:first-child {
+  height: 200px;
+  background-color: pink;
+}
+
+/* seconda riga */
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]:first-child {
+  height: 400px;
+  background-color: yellow;
+}
+
+
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child {
+  height: 400px;
+  background-color: green;
+}
+
+/* colonne dentro seconda colonna seconda riga */
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(1){
+  height: 200px;
+  background-color: coral;
+}
+
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(3){
+  height: 200px;
+  background-color: blue;
+}
+
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(2){
+  height: 200px;
+  background-color: red;
+}
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(4){
+  height: 200px;
+  background-color: pink;
+}
