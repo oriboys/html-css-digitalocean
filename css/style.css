@@ -208,3 +208,140 @@ header .container .row [class*="col-"]:nth-child(3) {
     display: none;
   }
 }
+
+/* features */
+
+#features .container .row [class*="col-"]:first-child {
+  height: 200px;
+  background-color: green;
+}
+
+#features .container .row [class*="col-"]:nth-child(2) {
+  height: 200px;
+  background-color: blue;
+}
+
+#features .container .row [class*="col-"]:nth-child(3) {
+  height: 200px;
+  background-color: red;
+}
+
+
+#features .container .row [class*="col-"]:nth-child(4) {
+  height: 200px;
+  background-color: yellow;
+}
+
+
+
+
+/* services */
+
+#services{
+  background-color: blue;
+}
+
+
+#services .container .row [class*="col-"]:nth-child(even){
+  height: 50px;
+  border: 2px solid black;
+}
+
+#services .container .row [class*="col-"]:nth-child(odd){
+  height: 50px;
+  border: 2px solid black;
+}
+
+#services .container .row [class*="col-"]:first-child{
+  height: 300px;
+  background-color: coral;
+  border: 0px;
+}
+
+
+/* development */
+
+#development .container .row [class*="col-"]:first-child {
+  height: 300px;
+  background-color: green;
+}
+
+#development .container .row [class*="col-"]:nth-child(2){
+  height: 500px;
+  background-color: blue;
+}
+
+#development .container .row [class*="col-"]:nth-child(3){
+  height: 500px;
+  background-color: red;
+}
+
+#development .container .row [class*="col-"]:last-child{
+  height: 500px;
+  background-color: yellow;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 766px) {
+  #development .container .row [class*="col-"]:nth-child(2){
+    display: none;
+  }
+
+  #development .container .row [class*="col-"]:last-child{
+    display: none;
+  }
+}
+
+
+/* footer */
+
+
+/* footer-top */
+
+#footer-top{
+  background-color: blue;
+}
+
+
+#footer-top .container .row [class*="col-"]{
+  height: 100px;
+  background-color: green;
+}
+
+
+/* footer-bottom */
+
+
+#footer-bottom{
+
+  background-color: darkblue;
+}
+
+
+
+#footer-bottom .container .row [class*="col-"]:first-child {
+  height: 500px;
+  background-color: red;
+}
+
+#footer-bottom .container .row [class*="col-"]:nth-child(2){
+  height: 500px;
+  background-color: yellow;
+}
+
+#footer-bottom .container .row [class*="col-"]:nth-child(3){
+  height: 500px;
+  background-color: coral;
+}
+
+#footer-bottom .container .row [class*="col-"]:nth-child(4){
+  height: 500px;
+  background-color: pink;
+}
+
+#footer-bottom .container .row [class*="col-"]:nth-child(5){
+  height: 500px;
+  background-color: black;
+}
