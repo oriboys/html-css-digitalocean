@@ -504,24 +504,38 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 
 #services{
   background-color: blue;
+  color: white;
+
 }
 
 
-#services .container .row [class*="col-"]:nth-child(even){
-  height: 50px;
-  border: 2px solid black;
+#services .row > [class*="col-"] {
+  padding-bottom: 70px;
+}
+#services .row > [class*="col-"]:first-child{
+  padding-bottom: 0;
+  padding-top: 30px;
 }
 
-#services .container .row [class*="col-"]:nth-child(odd){
-  height: 50px;
-  border: 2px solid black;
+.lin {
+  color: white;
+  line-height: 30px;
+  border-bottom: 1px solid white;
 }
 
-#services .container .row [class*="col-"]:first-child{
-  height: 300px;
-  background-color: coral;
-  border: 0px;
+
+.lin a{
+  color: rgb(10, 191, 240);
 }
+
+#services i {
+  padding-left: 15px;
+}
+
+
+
+
+
 
 
 /* development */
