@@ -225,6 +225,16 @@ header .container .row [class*="col-"]:nth-child(3) ul{
   padding-top: 10px;
 }
 
+/* media query */
+
+
+@media screen and (max-width: 768px){
+  #jumbo .container .row [class*="col-"]:first-child h1 {
+    font-size: 40px;
+    padding-right: 15px;
+  }
+}
+
 
 
 
@@ -303,42 +313,62 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 /* deploy */
 
 /* prima riga */
-#deploy .container .row [class*="col-"]:first-child {
-  height: 200px;
-  background-color: pink;
+
+
+#deploy .container .row [class*="col-"]:first-child h2 {
+  padding-top: 30px;
+  font-size: 30px;
+  color: rgb(62, 61, 65);
 }
+
+#deploy .container .row > [class*="col-"]:first-child p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: grey
+}
+
+
 
 /* seconda riga */
-#deploy .container .row [class*="col-"]:last-child [class*="col-"]:first-child {
-  height: 400px;
-  background-color: yellow;
+
+#deploy .container .row > [class*="col-"]:nth-child(2) {
+  padding-bottom: 10px;
+}
+
+#deploy ul {
+  border-left: 1px solid grey;
+}
+#deploy ul li{
+  line-height: 40px;
+  padding-left: 5px;
+  list-style: none;
+
+}
+
+#deploy ul li a{
+  text-decoration: none;
+  color: grey;
+}
+
+#deploy ul li a:hover{
+  text-decoration: none;
+  color: blue;
 }
 
 
-#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child {
-  /* height: 400px; */
-  background-color: green;
-}
 
 /* colonne dentro seconda colonna seconda riga */
-#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(1){
-  height: 200px;
-  background-color: coral;
+
+#deploy .container .row [class*="col-"]:last-child [class*="col-"]{
+  padding-bottom: 10px;
+}
+#deploy .container .row [class*="col-"]:last-child p{
+  font-size: 14px;
+  color: grey;
 }
 
-#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(3){
-  height: 200px;
-  background-color: blue;
-}
 
-#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(2){
-  height: 200px;
-  background-color: red;
-}
-#deploy .container .row [class*="col-"]:last-child [class*="col-"]:last-child [class*="col-"]:nth-child(4){
-  height: 200px;
-  background-color: pink;
-}
 
 
 /* designed */
