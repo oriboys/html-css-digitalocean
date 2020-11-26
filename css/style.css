@@ -26,6 +26,11 @@
   padding: 0;
 }
 
+h2 {
+  font-weight: 700;
+  color: rgb(62, 61, 65);
+  font-size: 30px
+}
 
 /* inizio footer */
 
@@ -317,7 +322,6 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 
 #deploy .container .row [class*="col-"]:first-child h2 {
   padding-top: 30px;
-  font-size: 30px;
   color: rgb(62, 61, 65);
 }
 
@@ -378,36 +382,94 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 }
 
 #designed .container .row [class*="col-"]:first-child {
-  height: 300px;
-  background-color: green;
+  padding-top: 20px;
 }
 
-#designed .container .row [class*="col-"]:nth-child(2){
-  height: 500px;
-  background-color: blue;
+#designed .container .row [class*="col-"]:first-child p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: grey;
+  font-size: 18px;
 }
 
-#designed .container .row [class*="col-"]:nth-child(3){
-  height: 500px;
-  background-color: red;
+#designed .container .row [class*="col-"]:nth-child(2) i{
+  line-height:  380px;
+  font-size: 30px;
+  color: rgb(62, 61, 65);
+
 }
 
-#designed .container .row [class*="col-"]:last-child{
-  height: 500px;
-  background-color: yellow;
+#designed .container .row [class*="col-"]:nth-child(3) {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#designed .container .row [class*="col-"]:nth-child(3) img{
+  width: 100%;
+  padding: 0;
+
+}
+
+#designed .container .row [class*="col-"]:nth-child(4) i{
+  line-height:  380px;
+  font-size: 30px;
+  color: rgb(62, 61, 65);
+
+}
+
+/* linea sotto */
+
+#designed .container .row [class*="col-"]:last-child {
+  padding-bottom: 30px;
+}
+
+#designed .container .row [class*="col-"]:last-child p {
+  color: rgb(62, 61, 65);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#designed .container .row [class*="col-"]:last-child i {
+  color: blue;
+
 }
 
 /* media query */
+
+
+
+
+@media screen and (max-width: 1200px){
+
+  #designed .container .row [class*="col-"]:nth-child(2) i{
+    line-height: 314px;
+  }
+  #designed .container .row [class*="col-"]:nth-child(4) i{
+    line-height: 314px;
+  }
+}
+
+@media screen and (max-width: 992px){
+
+  #designed .container .row [class*="col-"]:nth-child(2) i{
+    line-height: 244px;
+  }
+  #designed .container .row [class*="col-"]:nth-child(4) i{
+    line-height: 244px;
+  }
+}
 
 @media screen and (max-width: 766px) {
   #designed .container .row [class*="col-"]:nth-child(2){
     display: none;
   }
 
-  #designed .container .row [class*="col-"]:last-child{
+  #designed .container .row [class*="col-"]:nth-child(4){
     display: none;
   }
 }
+
+
 
 /* features */
 
