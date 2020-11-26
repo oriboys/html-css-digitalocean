@@ -29,43 +29,83 @@
 
 /* inizio footer */
 
+
+
 header .container .row [class*="col-"]:first-child {
   line-height: 100px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 header .container .row [class*="col-"]:nth-child(2) {
-  height: 100px;
-  background-color: blue;
+  /* line-height: 100px; */
+  /* height: 100px; */
+  /* background-color: blue; */
 }
 
 header .container .row [class*="col-"]:nth-child(3) {
-  height: 100px;
-  background-color: pink;
+  /* line-height: 100px; */
+  /* height: 100px;
+  background-color: pink; */
 }
 
 header .container .row [class*="col-"]:first-child img{
   height: 30px;
+  padding-left: 20px;
 
 }
 
 header li {
-
+  padding-top: 5px;
+  padding-right: 10px;
   display: inline-block;
   list-style: none;
 }
 
-header li a{
+header li a i {
+  padding-left: 5px;
+}
+
+header  a{
   line-height: 100px;
   color: rgb(62, 61, 65);
   text-decoration:  none;
 
 }
 
-.btnnav {
-  line-height: 100px;
+header  a:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+
+
+/* terza colonna */
+
+header button {
+  padding: 10px 15px;
+  color: rgb(28, 136, 247);
+  border: 1px solid rgb(28, 136, 247);
+  border-radius: 5px;
+  background-color: white;
+
+}
+header .container .row [class*="col-"]:nth-child(3) ul{
   float: right;
 }
+
+.btnnav {
+  /* line-height: 100px; */
+  float: right;
+  font-size: 25px;
+  padding-right: 20px;
+
+
+}
+
+.btnnav a i {
+  color: rgb(28, 136, 247);
+}
+
 
 /* media query */
 
@@ -76,6 +116,13 @@ header li a{
   }
 
   header .container .row [class*="col-"]:nth-child(3) ul{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .btnnav{
     display: none;
   }
 }
