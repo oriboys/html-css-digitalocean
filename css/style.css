@@ -473,25 +473,28 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 
 /* features */
 
-#features .container .row [class*="col-"]:first-child {
-  height: 200px;
-  background-color: green;
+#features .container .row [class*="col-"]{
+  padding-bottom: 20px;
+}
+#features .container .row [class*="col-"]:first-child  {
+  padding-top: 20px;
+
 }
 
-#features .container .row [class*="col-"]:nth-child(2) {
-  height: 200px;
-  background-color: blue;
+#features h5{
+  font-weight: 500;
 }
 
-#features .container .row [class*="col-"]:nth-child(3) {
-  height: 200px;
-  background-color: red;
+#features p{
+  color: grey;
 }
 
+#features a i {
+  padding-left: 10px;
+}
 
-#features .container .row [class*="col-"]:nth-child(4) {
-  height: 200px;
-  background-color: yellow;
+#features {
+  padding-bottom: 40px;
 }
 
 
