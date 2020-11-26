@@ -246,55 +246,38 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:first-child{
   /* height: 150px; */
   line-height: 100px;
-
-
 }
 
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:nth-child(2){
   /* height: 150px; */
   line-height: 100px;
-
-
-
 }
 
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:nth-child(3){
   /* height: 150px; */
   line-height: 100px;
-
-
-
 }
 
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:nth-child(4){
   /* height: 150px; */
   line-height: 100px;
-
-
-
 }
 
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:nth-child(5){
   /* height: 150px; */
   line-height: 100px;
-
-
-
 }
 
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:last-child{
   /* height: 150px; */
   line-height: 100px;
-
-
-
 }
 
 
-#logo img {
-
-width: 100%;
+#logo img{
+  width: 100%;
 }
+
 
 #logo .container .row [class*="col-"]:nth-child(2) [class*="col-"]:nth-child(5) img{
   height: 50px;
@@ -303,9 +286,17 @@ width: 100%;
 
 /* terza linea */
 
-#logo .container .row [class*="col-"]:last-child {
-  height: 100px;
-  background-color: green;
+#logo .container .row > [class*="col-"]:last-child{
+  line-height: 100px;
+}
+
+#logo .container .row > [class*="col-"]:last-child a {
+  font-size: 16px;
+}
+
+#logo .container .row > [class*="col-"]:last-child a i {
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 
