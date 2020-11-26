@@ -30,7 +30,7 @@
 /* inizio footer */
 
 header .container .row [class*="col-"]:first-child {
-  height: 100px;
+  line-height: 100px;
   background-color: red;
 }
 
@@ -44,11 +44,68 @@ header .container .row [class*="col-"]:nth-child(3) {
   background-color: pink;
 }
 
+header .container .row [class*="col-"]:first-child img{
+  height: 30px;
+
+}
+
+header li {
+
+  display: inline-block;
+  list-style: none;
+}
+
+header li a{
+  line-height: 100px;
+  color: rgb(62, 61, 65);
+  text-decoration:  none;
+
+}
+
+.btnnav {
+  line-height: 100px;
+  float: right;
+}
+
+/* media query */
+
 @media screen and (max-width: 1198px) {
 
   header .container .row [class*="col-"]:nth-child(2) {
     display: none;
   }
+
+  header .container .row [class*="col-"]:nth-child(3) ul{
+    display: none;
+  }
+}
+
+
+
+
+
+
+.navbar-center {
+  /* line-height: 50px; */
+  margin-left: 80px;
+}
+
+#cl_nav{
+  color: rgb(44, 45, 48);
+}
+
+#cl_nav:hover{
+  color: grey;
+}
+
+.nav_fix{
+  border: 0;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.navbar-brand img {
+  height: 20px;
 }
 
 
