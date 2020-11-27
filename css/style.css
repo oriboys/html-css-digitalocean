@@ -673,9 +673,58 @@ header .container .row [class*="col-"]:nth-child(3) ul{
   background-color: darkblue;
 }
 
+#footer-bottom .container .row [class*="col-"]{
+  padding-top: 20px;
+}
 
 
-#footer-bottom .container .row [class*="col-"]:first-child {
+#footer-bottom i {
+  padding-right: 5px;
+  font-size: 22px;
+  color: grey;
+
+}
+
+#footer-bottom p > i {
+  font-size: 16px
+  color: grey;
+
+}
+
+#footer-bottom .container .row [class*="col-"] p:nth-child(2){
+  font-size: 16px;
+  color: grey;
+  padding-top: 10px;
+}
+#footer-bottom .container .row [class*="col-"] p:nth-child(3) {
+  font-size: 10px;
+  color: lightgrey;
+
+}
+
+
+#footer-bottom .container .row [class*="col-"] ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+#footer-bottom .container .row [class*="col-"] ul li:first-child {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+#footer-bottom .container .row [class*="col-"] ul li a{
+  color: grey;
+}
+
+
+#footer-bottom .container .row [class*="col-"] ul li a:hover{
+  text-decoration: none;
+  color: lightgrey;
+}
+/* #footer-bottom .container .row [class*="col-"]:first-child {
   height: 500px;
   background-color: red;
 }
@@ -698,4 +747,4 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 #footer-bottom .container .row [class*="col-"]:nth-child(5){
   height: 500px;
   background-color: black;
-}
+} */
