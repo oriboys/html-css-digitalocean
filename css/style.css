@@ -671,6 +671,7 @@ header .container .row [class*="col-"]:nth-child(3) ul{
 #footer-bottom{
 
   background-color: darkblue;
+  padding-bottom:  80px;
 }
 
 #footer-bottom .container .row [class*="col-"]{
@@ -724,10 +725,59 @@ header .container .row [class*="col-"]:nth-child(3) ul{
   text-decoration: none;
   color: lightgrey;
 }
+
+
+/* bonus */
+textarea {
+  width: 250px;
+  max-height: 50px;
+}
+
+.imgshark {
+  height: 80px;
+  vertical-align: text-bottom;
+}
+
+.shark{
+  position: fixed;
+  bottom: 12%;
+  right: 1%;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .shark{
+    position: fixed;
+    bottom: 8%;
+    left: 3%;
+
+  }
+
+  .imgshark{
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  textarea{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  textarea{
+    float: left;
+
+  }
+
+}
 /* #footer-bottom .container .row [class*="col-"]:first-child {
   height: 500px;
   background-color: red;
 }
+
+
 
 #footer-bottom .container .row [class*="col-"]:nth-child(2){
   height: 500px;
